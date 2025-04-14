@@ -1,187 +1,82 @@
 body {
-    font-family: 'Times New Roman', serif;
-    background-color: #f4f1e1;
-    color: #5a3d2b;
-    margin: 0;
-    padding: 0;
-}
-/* Allgemeine Styling für den Header */
-header {
-    background-color: #000; /* schwarze Leiste */
-    padding: 15px 30px;
-    position: sticky;
-    top: 0;
-    z-index: 1000; /* Damit die Navbar immer oben bleibt */
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #000;
+  color: white;
 }
 
-/* Navbar Layout */
-.navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+.main-header {
+  background-color: #000;
+  padding: 10px 30px;
+  border-bottom: 1px solid #222;
 }
 
-.logo {
-    color: red;
-    font-size: 1.8em;
-    font-weight: bold;
-    font-family: 'Georgia', serif;
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-.nav-links {
-    display: flex;
-    align-items: center;
-    gap: 15px;
+/* Logo links */
+.logo-area {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
-.nav-links a {
-    color: white;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 1em;
+.logo-icon {
+  height: 45px;
+  width: auto;
 }
 
-.nav-links span {
-    color: red;
-    font-weight: bold;
-    font-size: 1.2em;
+.logo-text {
+  font-weight: 700;
+  color: #e30613;
+  line-height: 1.1;
+  font-size: 0.9rem;
+  text-transform: uppercase;
 }
 
-.login-button a {
-    background-color: red;
-    color: white;
-    padding: 10px 15px;
-    text-decoration: none;
-    border-radius: 4px;
-    font-weight: bold;
-    transition: background-color 0.3s;
+/* Navigation Mitte */
+.nav-menu {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.login-button a:hover {
-    background-color: #c30000;
+.nav-menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.9rem;
 }
 
-/* Anmeldeformular */
-#anmeldung {
-    padding: 50px 30px;
-    background-color: #f7f7f7;
+.nav-menu a:hover {
+  color: #e30613;
 }
 
-#anmeldung form {
-    display: flex;
-    flex-direction: column;
-    max-width: 400px;
-    margin: 0 auto;
+.nav-slash {
+  color: #e30613;
+  font-size: 1.1rem;
+  font-weight: bold;
 }
 
-#anmeldung label {
-    margin: 10px 0 5px;
-    font-weight: bold;
+/* Button rechts */
+.book-button a {
+  background-color: #e30613;
+  color: white;
+  padding: 8px 18px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 600;
+  border: 2px solid white;
+  transition: background 0.3s;
 }
 
-#anmeldung input {
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+.book-button a:hover {
+  background-color: white;
+  color: #e30613;
 }
-
-#anmeldung button {
-    padding: 10px 20px;
-    background-color: red;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-#anmeldung button:hover {
-    background-color: #c30000;
-}
-
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-section {
-    padding: 20px;
-    margin: 20px;
-}
-
-h1, h2, h3 {
-    font-family: 'Georgia', serif;
-}
-
-.course {
-    background-color: #e8c7b9;
-    margin: 10px 0;
-    padding: 15px;
-    border-radius: 8px;
-}
-
-.gallery-item {
-    display: inline-block;
-    margin: 10px;
-}
-
-.gallery-item img {
-    width: 300px;
-    height: 200px;
-    border-radius: 8px;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-    margin: 0 auto;
-}
-
-form label {
-    margin-top: 10px;
-}
-
-form input, form textarea {
-    padding: 10px;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-form button {
-    margin-top: 20px;
-    padding: 10px;
-    background-color: #8b0000;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-form button:hover {
-    background-color: #5a1a1a;
-}
-
-footer {
-    background-color: #8b0000;
-    color: white;
-    text-align: center;
-    padding: 10px 0
-::contentReference[oaicite:13]{index=13}
- 
