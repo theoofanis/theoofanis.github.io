@@ -7,17 +7,45 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">Über uns</a></li>
-                <li><a href="#courses">Kurse</a></li>
-                <li><a href="#gallery">Galerie</a></li>
-                <li><a href="#contact">Kontakt</a></li>
-            </ul>
+  <header>
+    <div class="navbar">
+        <div class="logo">Shoqata Kreshniket</div>
+        <nav class="nav-links">
+            <a href="#home">Home</a>
+            <span>|</span>
+            <a href="#about">Über uns</a>
+            <span>|</span>
+            <a href="#courses">Kurse</a>
+            <span>|</span>
+            <a href="#gallery">Galerie</a>
+            <span>|</span>
+            <a href="#contact">Kontakt</a>
         </nav>
-    </header>
+        <div class="login-button">
+            <!-- Der Anmelden Button führt jetzt zu einem Formular -->
+            <a href="#anmeldung">Anmelden</a>
+        </div>
+    </div>
+</header>
+
+<!-- Anmeldeformular (fiktiv für den Moment) -->
+<section id="anmeldung">
+    <h2>Anmeldeformular</h2>
+    <!-- Hier kannst du dein Anmeldeformular hinzufügen -->
+    <form action="/submit-form" method="POST">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">E-Mail</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="phone">Telefonnummer</label>
+        <input type="tel" id="phone" name="phone" required>
+        
+        <button type="submit">Anmelden</button>
+    </form>
+</section>
+
 
     <section id="home">
         <h1>Willkommen bei Shoqata Kreshniket</h1>
