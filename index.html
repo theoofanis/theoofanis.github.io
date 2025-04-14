@@ -2,80 +2,33 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Shoqata Kreshniket</title>
   <link rel="stylesheet" href="styles.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <div class="navbar">
-      <div class="logo">Shoqata Kreshniket</div>
-      <nav class="nav-links">
+  <header class="main-header">
+    <div class="nav-container">
+      <div class="logo-area">
+        <img src="logo.png" alt="Logo" class="logo-icon" />
+        <span class="logo-text">SHOQATA<br>KRESHNIKET</span>
+      </div>
+      <nav class="nav-menu">
         <a href="#home">Home</a>
-        <span>/</span>
+        <span class="nav-slash">|</span>
         <a href="#about">Über uns</a>
-        <span>/</span>
-        <a href="#courses">Kurse</a>
-        <span>/</span>
-        <a href="#gallery">Galerie</a>
-        <span>/</span>
-        <a href="#contact">Kontakt</a>
+        <span class="nav-slash">|</span>
+        <a href="#kurse">Kurse</a>
+        <span class="nav-slash">|</span>
+        <a href="#galerie">Galerie</a>
+        <span class="nav-slash">|</span>
+        <a href="#kontakt">Kontakt</a>
       </nav>
-      <div class="login-button">
+      <div class="book-button">
         <a href="#anmeldung">Anmelden</a>
       </div>
     </div>
   </header>
-
-  <section id="home" class="hero">
-    <h1>Willkommen bei Shoqata Kreshniket</h1>
-    <p>Tradition trifft Leidenschaft – Albanischer Tanz in Essen.</p>
-  </section>
-
-  <section id="about">
-    <h2>Über uns</h2>
-    <p>Wir bewahren die albanische Kultur durch Tanz und Gemeinschaft.</p>
-  </section>
-
-  <section id="courses">
-    <h2>Unsere Kurse</h2>
-    <div class="course">
-      <h3>Anfänger</h3>
-      <p>Lerne die Grundlagen der albanischen Volkstänze.</p>
-    </div>
-    <div class="course">
-      <h3>Fortgeschrittene</h3>
-      <p>Perfektioniere deine Technik und Bühnenpräsenz.</p>
-    </div>
-  </section>
-
-  <section id="gallery">
-    <h2>Galerie</h2>
-    <div class="gallery-grid">
-      <img src="images/image1.jpg" alt="Auftritt 1" />
-      <img src="images/image2.jpg" alt="Auftritt 2" />
-      <img src="images/image3.jpg" alt="Auftritt 3" />
-    </div>
-  </section>
-
-  <section id="contact">
-    <h2>Kontakt</h2>
-    <p>Email: <a href="mailto:info@kreshniket.de">info@kreshniket.de</a></p>
-    <p>Ort: Essen, Deutschland</p>
-  </section>
-
-  <section id="anmeldung">
-    <h2>Anmeldung</h2>
-    <form action="/submit" method="post">
-      <input type="text" placeholder="Name" required />
-      <input type="email" placeholder="Email" required />
-      <button type="submit">Jetzt anmelden</button>
-    </form>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 Shoqata Kreshniket. Alle Rechte vorbehalten.</p>
-  </footer>
 </body>
 </html>
