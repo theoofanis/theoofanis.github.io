@@ -2,7 +2,7 @@
 body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
-  background: #000; /* schwarz */
+  background: #000; /* komplett schwarz */
   color: #fff; /* weiß */
 }
 
@@ -60,6 +60,11 @@ header {
   font-weight: bold;
   text-transform: uppercase;
   margin-left: 20px;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #ff1a1a;
 }
 
 .hamburger {
@@ -90,6 +95,7 @@ header {
 #about, #courses, #gallery, #contact {
   padding: 80px 20px;
   text-align: center;
+  background: #000;
 }
 
 h2 {
@@ -105,14 +111,16 @@ h2 {
 }
 
 .course-item {
-  background: #111;
+  background: #000; /* komplett schwarz */
   padding: 20px;
   border-radius: 8px;
+  border: 1px solid red;
 }
 
 .course-img {
   height: 150px;
-  background: #222;
+  background: #000; /* komplett schwarz */
+  border: 1px solid red;
   border-radius: 8px;
   margin-bottom: 10px;
 }
@@ -127,8 +135,8 @@ form {
 
 form input, form textarea {
   padding: 10px;
-  background: #111;
-  border: 1px solid #333;
+  background: #000;
+  border: 1px solid red;
   color: white;
   border-radius: 5px;
 }
@@ -139,6 +147,11 @@ form button {
   padding: 10px;
   border: none;
   border-radius: 5px;
+  transition: background 0.3s;
+}
+
+form button:hover {
+  background: #ff1a1a;
 }
 
 footer {
