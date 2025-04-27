@@ -59,7 +59,7 @@ header {
   border-radius: 30px;
   font-weight: bold;
   text-transform: uppercase;
-  margin-left: 0px;
+  margin-left: 20px;
   transition: background 0.3s;
   border: none; /* optional schöner */
 }
